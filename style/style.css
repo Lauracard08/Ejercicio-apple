@@ -1,0 +1,377 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  color: darkgray;
+}
+
+.header {
+  background-color: rgb(224, 222, 222);
+  border: 5px solid rgb(12, 12, 12);
+}
+
+.header__menu {
+  color: rgb(19, 15, 24);
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__menu ul {
+  display: flex;
+}
+
+.header__menu li {
+  display: inherit;
+}
+
+.header__menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__menu a:hover {
+  background-color: rgb(9, 8, 10);
+  color: rgb(131, 97, 97);
+  border-radius: 10px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  color: black;
+  background-color: rgb(red, green, blue);
+}
+
+.banner .banner__hero {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.banner__text-hero {
+  padding: 80px 0 0 80px;
+  font-family: monospace;
+  font-size: 18px;
+}
+.d-block{
+  background-color: rgb(83, 83, 226);
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px grey;
+}
+
+.portafolio {
+  display: flex;
+  margin: 100px;
+}
+
+.portafolio__box {
+  margin: 15px;
+  box-shadow: 0px 1px 8px 1px black;
+  border-radius: 10px;
+  width: 70%;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.portafolio__box img {
+  border-radius: 10px;
+}
+
+.portafolio__card {
+  margin: 5px;
+  padding: 5px;
+}
+.portafolio__card button {
+  background-color: rgb(121, 121, 252);
+  color: rgb(27, 26, 26);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px grey;
+}
+
+.title {
+  background-color: rgb(160, 153, 160);
+  border-left: 6px solid rgb(158, 151, 151);
+  text-align: center;
+}
+
+.portafolio {
+  display: flex;
+  margin: 100px;
+}
+
+.proyecto__box {
+  margin: 100px;
+  box-shadow: 0px 1px 8px 2px black;
+  border-radius: 10px;
+  width: 45%;
+  margin-left: auto; 
+  margin-right: auto;
+}
+
+.proyecto__box img {
+  border-radius: 10%;
+}
+
+.proyecto__body {
+  box-shadow: 0px -10px 10px 2px black;
+  display: block;
+  padding: 10px;
+}
+
+.footer {
+  color: rgb(182, 181, 181);
+  background-color: rgb(10, 9, 10);
+}
+.footer-social{
+    padding: 5px;
+  }
+  .lista-social{
+    text-align: center;
+    padding: 0;
+  }
+  .social__item{
+    display: inline-block;
+  }
+  .social__link{
+    color: black;
+    font-size: 23px;
+    border-radius: 8px;
+    background: rgb(105, 100, 100);
+    transition: 0.2s linear;
+    box-shadow: 0 15px 30px #f2d2b3;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    margin: 0px 5px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .social__link:hover{
+    box-shadow: 0 0 0 #5b3924;
+  }
+  .footer{
+    color: rgb(11, 11, 17);
+    padding: 3px;
+    text-align: center;
+    background: rgb(206, 200, 200);
+    margin: 0;
+  }
+  .container-footer{
+    color: #5b3924;
+    text-decoration: none;
+  }
+  .container-footer:hover{
+    color: gray;
+  }
+
+  
+@media (max-width: 1080px){
+  .principal-text{
+      top: 60%;
+  }
+
+  .principal-img{
+      text-align: center;
+      top: 0;
+      left: 0;
+      margin: 24% auto;
+      position: relative;
+  }
+  .vacio{
+      top: 60%;
+  }
+  .container{
+      display: block;
+  }
+  .col-left-1{
+      float: none;
+      width: 100%;
+      margin-top: 0px;
+      padding-top: 60px;
+  }
+  .principal__title-1-welcome{
+      margin-top: 0px;
+  }
+  .col-left-1{
+      margin-top: 0px;
+      text-align: center;
+      width: 100%;
+  }
+  .container__img-1{
+      width: 100%;
+  }
+  .col-left-1-servicios{
+      padding-top: 60%;
+      text-align: left;
+  }
+  .col-left-1-card{
+      padding-top: 0px;
+  }
+  .cards{
+      width: 101%;
+      height: 200px;
+  }
+  .cards:hover .content{
+      height: 30%;
+  }
+  .content__title{
+      font-size: 28px;
+  }
+  .price{
+      height: 34px;
+      width: 12;
+  }
+  .price-left{
+      line-height: 14px;
+  }
+  .price__parrafo{
+      font-size: 23px;
+      margin: 9px 17px;
+  }
+}
+@media (max-width: 200px) and (max-height: 450px) {
+  .principal-text{
+      top: 235;
+  }
+  .principal-img{
+      max-height: 587px;
+      height: 200px;
+      margin-bottom: 48px;
+  }
+  .vacio{
+      top: 235;
+  }
+  .cards{
+      width: 101%;
+      height: 381px;
+  }
+}  
+
+@media (max-width: 200px){
+  .header{
+      height: 60px;
+  }
+  .brand{
+      margin-left: 20px;
+  }
+  .brand__h1{
+      font-size: 20px;
+  }
+  .menu__link{
+      font-size: 16px;
+      padding: 10px 8px;
+  }
+  .buscar{
+      margin-right: 20px;
+  }
+  .buscar__icono{
+      font-size: 15px;
+  }
+  .principal-text{
+      left: 3px;
+  }
+  .principal__title-1{
+      font-size: 20px;
+  }
+  .principal__title-2{
+      font-size: 16px;
+  }
+  .principal-img{
+      max-width: 311px;
+      height: 219px;
+  }
+  .col-right-1{
+      height: 510px;
+      padding-top: 30px;
+  }
+  .principal__title-1-welcome{
+      margin: 0px 20px 20px 20px;
+  }
+  .welcome__parrafo{
+      font-size: 16px;
+      margin: 20px;
+  }
+  .col-right-1{
+      width: 100%;
+      height: 302px;
+  }
+  .container__img-1{
+      width: 100%;
+  }
+  .col-left-1-servicios{
+      width: 302px;
+      height: 302px;
+      padding-top: 0px;
+  }
+  .col-right-1-servicios{
+      height: 510px;
+      padding-top: 30px;
+  }
+  .footer{
+      padding: 32px;
+  }
+  .container-footer{
+      font-size: 15px;
+  }
+  .container-card{
+      background-color: hotpink;
+  }
+  .col-left-1-card{
+  padding-top: 0px;
+  height: auto;
+  }
+  .cards{
+      width: 52%;
+      height: 100px;
+  }
+  .cards:hover .content{
+      height: 40%;
+  }
+  .content__title{
+      margin: 5px;
+      font-size: 20px;
+  }
+  .price{
+      height: 24px;
+      width: 8px;
+  }
+  .price-left{
+      line-height: 10px;
+  }
+  .price__parrafo{
+      font-size: 16px;
+      margin: 7px 13px;
+  }
+  .icons-contact{
+      margin: 0px 20px -17px 20px;
+  }
+  .icono__social{
+      padding: 0px;
+  }
+  .social__link{
+      font-size: 19px;
+      height: 28px;
+      width: 28px;
+      margin: 0px 4px;
+}
+.footer__sections {
+  padding: 10px;
+}
+.copyright p {
+  color:  rgb(240, 229, 229);
+  font-family: italic;
+  text-align: center;
+}
+}
